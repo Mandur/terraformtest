@@ -11,7 +11,12 @@ variable "virtual_network_name" {
 variable "subnet_name" {
   type        = string
   description = "Name of the environment"
-}   
+}  
+
+variable "location" {
+  type        = string
+  description = "Name of the environment"
+} 
 
 #By default
 variable "vnet_address_space" {

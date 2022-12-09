@@ -5,7 +5,7 @@ provider "azurerm" {
 resource "azurerm_virtual_network" "default" {
   name                = var.virtual_network_name
   address_space       = var.vnet_address_space
-  location            = azurerm_resource_group.default.location
+  location            = var.location
   resource_group_name = var.vnet_resource_group_name
 }
 
