@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 resource "azurerm_key_vault" "example" {
   name                = "appins-${var.name}-${var.stage}"
   location            = var.location

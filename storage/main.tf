@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 resource "azurerm_storage_account" "example" {
   name                     = "sto${var.name}${var.stage}"
   location                 = var.location

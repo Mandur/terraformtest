@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 resource "azurerm_application_insights" "example" {
   name                = "appins-${var.name}-${var.stage}"
   location            = var.location
