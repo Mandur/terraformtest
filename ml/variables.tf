@@ -14,6 +14,17 @@ variable "app_insights_name" {
 }
 
 
+variable "storage_id" {
+  type        = string
+  description = "Name of the deployment"
+}
+
+variable "location" {
+  type        = string
+  description = "Name of the deployment"
+}
+
+
 variable "name" {
   type        = string
   description = "Name of the deployment"
