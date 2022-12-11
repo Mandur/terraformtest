@@ -14,7 +14,7 @@ variable "app_insights_name" {
 }
 
 
-variable "storage_id" {
+variable "storage_account_id" {
   type        = string
   description = "Name of the deployment"
 }
