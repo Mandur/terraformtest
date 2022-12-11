@@ -3,12 +3,12 @@ variable "resource_group_name" {
   description = "Name of the deployment"
 }
 
-variable "key_vault_name" {
+variable "key_vault_id" {
   type        = string
   description = "Name of the deployment"
 }
 
-variable "app_insights_name" {
+variable "app_insights_id" {
   type        = string
   description = "Name of the deployment"
 }
