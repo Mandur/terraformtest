@@ -23,3 +23,9 @@ variable "stage" {
   description = "Name of the deployment"
 }
 
+variable "users" {
+  type = list
+  default = [ "guid1", "guid2"]
+  
+}
+
